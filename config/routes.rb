@@ -14,4 +14,7 @@ Rails.application.routes.draw do
       post :deny
     end
   end
+
+  resources :users
+  resource :session, only: [:new, :create, :destroy]
 end

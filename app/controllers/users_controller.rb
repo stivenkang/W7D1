@@ -1,9 +1,8 @@
 class UsersController < ApplicationController
-    def new
-        render :new
-    end
+  def new
+    render :new
+  end
 
-    def create
-        
-    end
+  def create
+  end
 end

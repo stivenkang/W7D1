@@ -1,0 +1,7 @@
+<% if type == :new %>
+  <% action_url = users_url%>
+  <% button_text = 'Sing Up User' %>
+<% else %>
+  <% action_url = user_url(user) %>
+  <% button_text = 'Update User' %>
+<% end %>
